@@ -11,6 +11,7 @@ plugins {
   id("net.minecrell.plugin-yml.bukkit") version "0.6.0"
   id("com.diffplug.spotless") version "8.4.0"
   id("io.gitlab.arturbosch.detekt") version "1.23.8"
+  id("io.papermc.paperweight.userdev") version "1.7.7"
 }
 
 BuildConfig.init(project)
@@ -403,4 +404,7 @@ spotless {
     target("*.gradle.kts")
     ktfmt().googleStyle()
   }
+}
+tasks.reobfJar {
+    outputJar.set(layout.buildDirectory.file("libs/${project.name}-${project.version}.jar"))
 }
