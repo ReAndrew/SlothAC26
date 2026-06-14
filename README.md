@@ -1,6 +1,6 @@
 <div align="center">
-  <h1>SlothAC</h1>
-  <p>An AI-powered, free and open-source anti-cheat for Minecraft servers.</p>
+  <h1>SlothAC26</h1>
+  <p>An AI-powered, free and open-source anti-cheat for Minecraft servers. Now trying to 26.*</p>
 
   <p>
     <a href="https://github.com/KaelusMC/SlothAC/actions/workflows/ci.yml">
