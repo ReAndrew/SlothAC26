@@ -98,6 +98,11 @@ dependencies {
   testRuntimeOnly("io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT")
   testRuntimeOnly("org.xerial:sqlite-jdbc:3.51.3.0")
   testRuntimeOnly("io.netty:netty-handler:4.1.113.Final")
+
+  //Paper moment
+  paperweightDevBundle("io.papermc.paper", "paper-dev-bundle", "26.1.2-R0.1-SNAPSHOT")
+
+
 }
 
 java {
