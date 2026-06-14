@@ -1,6 +1,6 @@
 <div align="center">
-  <h1>SlothAC</h1>
-  <p>Свободный AI-античит с открытым исходным кодом для Minecraft-серверов.</p>
+  <h1>SlothAC26</h1>
+  <p>Свободный AI-античит с открытым исходным кодом для Minecraft-серверов. Теперь и на 26.*</p>
 
   <p>
     <a href="https://github.com/KaelusMC/SlothAC/actions/workflows/ci.yml">
